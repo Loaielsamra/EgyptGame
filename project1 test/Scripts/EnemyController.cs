@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
-
     public bool isFacingRight = false;
     public float maxSpeed = 3f;
     public int damage = 6;
