@@ -19,6 +19,7 @@ public class TokenController : MonoBehaviour
 
     private EagleController eagleController; // Reference to the EagleController
     private PlayerStats playerStats; // Reference to the PlayerStats
+    private RamseesController ramseesController = collision.GetComponent<RamseesController>();
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +32,9 @@ public class TokenController : MonoBehaviour
     {
         // Check if the colliding object is the player
         if (collision.CompareTag("Player"))
-        {
-            PlayerController playerController = collision.GetComponent<PlayerController>();
+        {        
 
-            if (playerController != null)
+            if (ramseesController != null)
             {
                 // Handle token effects based on token type
                 if (CompareTag("EagleToken"))
@@ -44,11 +44,11 @@ public class TokenController : MonoBehaviour
                 }
                 else if (CompareTag("SpeedToken"))
                 {
-                    playerController.ActivateSpeedBoost(speedBoostDuration);
+                    ramseesController.ActivateSpeedBoost(speedBoostDuration);
                 }
                 else if (CompareTag("UpwardArrowToken"))
                 {
-                    playerController.EnableDoubleJump(doubleJumpDuration);
+                    ramseesController.EnableDoubleJump(doubleJumpDuration);
                 }
                 else if (CompareTag("KeyOfLifeToken"))
                 {
@@ -56,7 +56,7 @@ public class TokenController : MonoBehaviour
                 }
                 else if (CompareTag("EyeOfHorusToken"))
                 {
-                    playerController.ActivateInvisibility(invisibilityDuration);
+                    ramseesController.ActivateInvisibility(invisibilityDuration);
                 }
 
                 // Destroy the token after applying its effect
