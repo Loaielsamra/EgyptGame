@@ -55,95 +55,98 @@ public class RamseesController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Jump
-        if (Input.GetKeyDown(Spacebar))
+        if (!PauseResume.paused)
         {
-            if (grounded)
+            // Jump
+            if (Input.GetKeyDown(Spacebar))
             {
-                Jump(); // Perform normal jump
+                if (grounded)
+                {
+                    Jump(); // Perform normal jump
+                }
+                else if (canDoubleJump)
+                {
+                    DoubleJump(); // Perform double jump
+                }
             }
-            else if (canDoubleJump)
+
+            anim.SetBool("Grounded", grounded);
+
+            // Move Left
+            if (Input.GetKey(L))
             {
-                DoubleJump(); // Perform double jump
+                GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+                if (GetComponent<SpriteRenderer>() != null)
+                {
+                    GetComponent<SpriteRenderer>().flipX = true;
+                }
             }
-        }
 
-        anim.SetBool("Grounded", grounded);
-
-        // Move Left
-        if (Input.GetKey(L))
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-            if (GetComponent<SpriteRenderer>() != null)
+            // Move Right
+            if (Input.GetKey(R))
             {
-                GetComponent<SpriteRenderer>().flipX = true;
+                GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+                if (GetComponent<SpriteRenderer>() != null)
+                {
+                    GetComponent<SpriteRenderer>().flipX = false;
+                }
             }
-        }
 
-        // Move Right
-        if (Input.GetKey(R))
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-            if (GetComponent<SpriteRenderer>() != null)
+            anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
+
+            // Shoot
+            if (Input.GetKeyDown(Return))
             {
-                GetComponent<SpriteRenderer>().flipX = false;
+
             }
-        }
 
-        anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
-
-        // Shoot
-        if (Input.GetKeyDown(Return))
-        {
-
-        }
-
-        // Attack Animations
-        if (Input.GetKeyDown(attack1Key))
-        {
-            anim.SetTrigger("Attack1");
-        }
-        else if (Input.GetKeyDown(attack2Key))
-        {
-            anim.SetTrigger("Attack2");
-        }
-        else if (Input.GetKeyDown(attack3Key))
-        {
-            anim.SetTrigger("Attack3");
-        }
-
-        // Defend Animation
-        if (Input.GetKey(defendKey))
-        {
-            anim.SetBool("Defending", true);
-        }
-        else
-        {
-            anim.SetBool("Defending", false);
-        }
-        // Handle invisibility timer
-        if (isInvisible)
-        {
-            invisibilityTimer -= Time.deltaTime;
-            if (invisibilityTimer <= 0)
+            // Attack Animations
+            if (Input.GetKeyDown(attack1Key))
             {
-                DeactivateInvisibility();
+                anim.SetTrigger("Attack1");
             }
-        }
-        if (speedBoostTimer > 0)
-        {
-            speedBoostTimer -= Time.deltaTime;
-            if (speedBoostTimer <= 0)
+            else if (Input.GetKeyDown(attack2Key))
             {
-                DeactivateSpeedBoost(); // Revert back to normal speed
+                anim.SetTrigger("Attack2");
             }
-        }
-        if (canDoubleJump)
-        {
-            doubleJumpTimer -= Time.deltaTime;
-            if (doubleJumpTimer <= 0)
+            else if (Input.GetKeyDown(attack3Key))
             {
-                canDoubleJump = false; // Disable double jump after the timer runs out
+                anim.SetTrigger("Attack3");
+            }
+
+            // Defend Animation
+            if (Input.GetKey(defendKey))
+            {
+                anim.SetBool("Defending", true);
+            }
+            else
+            {
+                anim.SetBool("Defending", false);
+            }
+            // Handle invisibility timer
+            if (isInvisible)
+            {
+                invisibilityTimer -= Time.deltaTime;
+                if (invisibilityTimer <= 0)
+                {
+                    DeactivateInvisibility();
+                }
+            }
+            if (speedBoostTimer > 0)
+            {
+                speedBoostTimer -= Time.deltaTime;
+                if (speedBoostTimer <= 0)
+                {
+                    DeactivateSpeedBoost(); // Revert back to normal speed
+                }
+            }
+            if (canDoubleJump)
+            {
+                doubleJumpTimer -= Time.deltaTime;
+                if (doubleJumpTimer <= 0)
+                {
+                    canDoubleJump = false; // Disable double jump after the timer runs out
+                }
             }
         }
     }
