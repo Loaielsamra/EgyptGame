@@ -205,6 +205,7 @@ void OnCollisionExit2D(Collision2D collision)
     public void ActivateInvisibility(float duration)
     {
         isInvisible = true;
+        PlayerStats.isInvisible = true;
         invisibilityTimer = duration;
 
         // Make the player visually semi-transparent
@@ -216,6 +217,7 @@ void OnCollisionExit2D(Collision2D collision)
     private void DeactivateInvisibility()
     {
         isInvisible = false;
+        PlayerStats.isInvisible = false;
 
         // Restore player visibility
         spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1f);
@@ -225,11 +227,11 @@ void OnCollisionExit2D(Collision2D collision)
     }
     public void EnableDoubleJump(float duration)
     {
-        canDoubleJump = true;
-        doubleJumpTimer = 15f; // Set the double jump timer
+        if (!canDoubleJump)
+        {
+            canDoubleJump = true;
+            doubleJumpTimer = duration; // Set the double jump timer
+        }
     }
     // Set the double jump timer to 15 seconds
-}
-
-
 }

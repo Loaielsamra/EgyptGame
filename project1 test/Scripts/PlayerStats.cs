@@ -18,6 +18,7 @@ public class PlayerStats : MonoBehaviour
     public float immunityDuration = 1.5f;
     public int coinsCollected = 0;
     public Image healthBar;
+    public bool isInvisible = false;
 
     public AudioClip GameOverSound;
 
@@ -55,7 +56,7 @@ public class PlayerStats : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        if (this.isImmune == false)
+        if (this.isImmune == false && this.isInvisible==false)
         {
             this.health = this.health - damage;
             healthBar.fillAmount = this.health/3f;
