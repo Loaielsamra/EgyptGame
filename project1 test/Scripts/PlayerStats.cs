@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -17,6 +17,8 @@ public class PlayerStats : MonoBehaviour
     private float immunityTime = 0f;
     public float immunityDuration = 1.5f;
     public int coinsCollected = 0;
+    public Image healthBar;
+    public bool isInvisible = false;
 
     public AudioClip GameOverSound;
 
@@ -54,9 +56,10 @@ public class PlayerStats : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        if (this.isImmune == false)
+        if (this.isImmune == false && this.isInvisible==false)
         {
             this.health = this.health - damage;
+            healthBar.fillAmount = this.health/3f;
             if (this.health < 0)
             {
                 this.health = 0;
