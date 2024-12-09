@@ -241,4 +241,29 @@ void OnCollisionExit2D(Collision2D collision)
         }
     }
     // Set the double jump timer to 15 seconds
+
+    public void DisableJump(float duration)
+    {
+        StartCoroutine(DisableJumpCoroutine(duration));
+    }
+
+    private IEnumerator DisableJumpCoroutine(float duration)
+    {
+        // Temporarily disable jumping by setting jumpHeight and doubleJumpHeight to 0
+        float originalJumpHeight = jumpHeight;
+        float originalDoubleJumpHeight = doubleJumpHeight;
+        jumpHeight = 0;
+        doubleJumpHeight = 0;
+
+        yield return new WaitForSeconds(duration);
+
+        // Re-enable jumping by restoring the original values
+        jumpHeight = originalJumpHeight;
+        doubleJumpHeight = originalDoubleJumpHeight;
+    }
+
+
+
+
+
 }
