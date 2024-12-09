@@ -19,7 +19,6 @@ public class TokenController : MonoBehaviour
 
     private EagleController eagleController; // Reference to the EagleController
     private PlayerStats playerStats; // Reference to the PlayerStats
-    private RamseesController ramseesController = collision.GetComponent<RamseesController>();
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +31,8 @@ public class TokenController : MonoBehaviour
     {
         // Check if the colliding object is the player
         if (collision.CompareTag("Player"))
-        {        
+        {
+            RamseesController ramseesController = collision.GetComponent<RamseesController>();
 
             if (ramseesController != null)
             {

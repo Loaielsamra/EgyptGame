@@ -43,6 +43,9 @@ public class RamseesController : MonoBehaviour
     private bool canDoubleJump = false; // Flag to track if double jump is available
     private float doubleJumpTimer = 0f; // Timer for double jump duration
 
+    private PlayerStats PlayerStats;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +53,7 @@ public class RamseesController : MonoBehaviour
         anim = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        PlayerStats = FindObjectOfType<PlayerStats>();
     }
 
     // Update is called once per frame
