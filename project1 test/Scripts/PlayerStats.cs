@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    public int hieroglyphTokens = 0;  // Keeps track of how many tokens the player has collected
+    public int maxTokens = 5;  // The number of tokens needed to open the treasure box
 
     public int health = 6;
     public int lives = 3;
@@ -87,6 +90,17 @@ public class PlayerStats : MonoBehaviour
     {
         this.isImmune = true;
         this.immunityTime = 0f;
+    }
+
+
+    // Method to increase the token count when a token is collected
+    public void CollectToken()
+    {
+        if (hieroglyphTokens < maxTokens) // Ensure we don't go over maxTokens
+        {
+            hieroglyphTokens++;
+            Debug.Log("Tokens collected: " + hieroglyphTokens);
+        }
     }
 
 }
