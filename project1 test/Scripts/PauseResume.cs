@@ -1,15 +1,15 @@
-﻿using System.Collections;
+﻿uusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class PauseResume : MonoBehaviour
 {
-
     public GameObject PauseScreen;
     public static bool paused;
     public KeyCode PauseButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,23 +20,35 @@ public class PauseResume : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(PauseButton) && !paused)
+        if (Input.GetKeyDown(PauseButton))
         {
-            Pause();
-        }else if(Input.GetKey(PauseButton) && paused) {
-            Resume();
+            if (!paused)
+            {
+                Pause();
+            }
+            else
+            {
+                Resume();
+            }
         }
     }
+
     void Pause()
     {
         PauseScreen.SetActive(true);
         paused = true;
         Time.timeScale = 0;
     }
+
     public void Resume()
     {
         PauseScreen.SetActive(false);
-        paused= false;
+        paused = false;
         Time.timeScale = 1;
+    }
+    public void Restart()
+    {
+        Time.timeScale = 1; // Ensure the game is running normally
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
     }
 }
