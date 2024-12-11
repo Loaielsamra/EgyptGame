@@ -58,6 +58,11 @@ public class TokenController : MonoBehaviour
                 {
                     ramseesController.ActivateInvisibility(invisibilityDuration);
                 }
+                else if (CompareTag("HieroglyphToken"))
+                {
+                    // Increase the hieroglyphTokens count in PlayerScript
+                    playerStats.hieroglyphTokens++; // Call the method that increases the token count
+                }
 
                 // Destroy the token after applying its effect
                 Destroy(gameObject);
