@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI; 
-using TMPro; 
+using TMPro;
 
 public class TimerManager : MonoBehaviour
 {
@@ -8,8 +7,8 @@ public class TimerManager : MonoBehaviour
     private float timeRemaining = 90f;
 
     // Reference to the UI Text
-    
-    public TextMeshProUGUI timeText; 
+    public TextMeshProUGUI timeText;
+
     // Update is called once per frame
     void Update()
     {
@@ -25,6 +24,16 @@ public class TimerManager : MonoBehaviour
 
         // Update the UI text to show the time remaining
         UpdateTimerUI();
+
+        // Change text color to red at 30 seconds remaining
+        if (timeRemaining <= 30f)
+        {
+            timeText.color = Color.red;  // Set the text color to red
+        }
+        else
+        {
+            timeText.color = Color.white;  // Reset the color to white before 30 seconds
+        }
     }
 
     // Restart the scene when time reaches 0
@@ -44,3 +53,4 @@ public class TimerManager : MonoBehaviour
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }
+
