@@ -14,12 +14,12 @@ public class TreasureBox : MonoBehaviour
     public int requiredTokens = 5;        // Tokens needed to open the box
     private bool isOpened = false;        // Boolean to track whether the box has been opened
 
-    private PlayerScript playerScript;    // Reference to the player's script to get the token count
+    private PlayerStats playerScript;    // Reference to the player's script to get the token count
 
     void Start()
     {
         // Initialize the player script
-        playerScript = FindObjectOfType<PlayerScript>();
+        playerScript = FindObjectOfType<PlayerStats>();
         treasureBoxOpen.SetActive(false);  // Make sure the box is closed initially
         artifactLocationImage.enabled = false; // Hide the artifact location image initially
     }
@@ -67,4 +67,4 @@ Import the image you want to use for the artifact location (the map) into your U
 Assign this image (as a Sprite) to the artifactMapSprite field in the TreasureBox script.
 Treasure Box Setup:
 
-Set up your treasure box GameObject, making sure to have two states: one for when it is closed and one for when it is open. Assign these states to the treasureBoxClosed and treasureBoxOpen GameObjects
+Set up your treasure box GameObject, making sure to have two states: one for when it is closed and one for when it is open. Assign these states to the treasureBoxClosed and treasureBoxOpen GameObjects*/
