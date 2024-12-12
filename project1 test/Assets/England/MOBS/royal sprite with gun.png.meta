@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: royal sprite with gun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 32
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fbcf6e629822d42b9a0f867149d7ef
+      internalID: 2135530048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 652
+        width: 92
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d81099f277f758419add13527f95e43
+      internalID: 867809821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 651
+        width: 139
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a243e9e4fb9c40a8aebd4b99c2ea6
+      internalID: 73749388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 652
+        width: 104
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c255526d0d02724458d2c41f759746f2
+      internalID: 132590578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 652
+        width: 103
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e5cab7172d1040a850d5ffa084da7
+      internalID: -1567986231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 654
+        width: 97
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1191196ef1127da45b1fe5a5fac2da63
+      internalID: -1067735284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_6
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 652
+        width: 103
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54d17c7a07f7af4bbf678b1e55f149b
+      internalID: 608459490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_7
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 654
+        width: 100
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8be2c6a5e55f0741b18c8b2d6ef06e0
+      internalID: -964884674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 327
+        width: 100
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4a5f12e1a1c564aaf2444de1d5afbd
+      internalID: -2019314259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 327
+        width: 101
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77fe70bd9000214b9896660a13e0daa
+      internalID: 531086804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 327
+        width: 99
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a78060bcc60d624fac6ffa6b49cae7e
+      internalID: 1863376485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 330
+        width: 157
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a984f31312456408d7cd95632f3b1f
+      internalID: -1803305018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_12
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 327
+        width: 101
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b002744cd4112499b701543dc56fc2
+      internalID: 1113699584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_13
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 336
+        width: 163
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe9d43e7b9df704290e231287b178b9
+      internalID: -1565325088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 328
+        width: 112
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a6a742222870b48a58f155fde7ee30
+      internalID: 846960531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 140
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7112fee0ea15949a83d6e816a6743c
+      internalID: 2013352695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 8
+        width: 91
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ea46e567f0406419be30f44479c52c
+      internalID: -2008513137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 8
+        width: 89
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5676bc0065e704b9ab99e785f62bca
+      internalID: -1321269682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 8
+        width: 139
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ad403d0c961194da0844deed3641bb
+      internalID: 393401415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 10
+        width: 144
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c47f671e9b97a46879f4355f7ac6bc
+      internalID: -1837048060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_20
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 11
+        width: 154
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c449bfe84961ab4586b77fac377516f
+      internalID: 332870601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite with gun_21
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 11
+        width: 162
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533766110b2c9e7489c2c741d1747e19
+      internalID: 214630668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +576,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      royal sprite with gun_20: 332870601
+      royal sprite with gun_10: 1863376485
+      royal sprite with gun_6: 608459490
+      royal sprite with gun_16: -2008513137
+      royal sprite with gun_19: -1837048060
+      royal sprite with gun_4: -1567986231
+      royal sprite with gun_9: 531086804
+      royal sprite with gun_8: -2019314259
+      royal sprite with gun_11: -1803305018
+      royal sprite with gun_18: 393401415
+      royal sprite with gun_17: -1321269682
+      royal sprite with gun_7: -964884674
+      royal sprite with gun_5: -1067735284
+      royal sprite with gun_1: 867809821
+      royal sprite with gun_3: 132590578
+      royal sprite with gun_0: 2135530048
+      royal sprite with gun_13: -1565325088
+      royal sprite with gun_14: 846960531
+      royal sprite with gun_12: 1113699584
+      royal sprite with gun_21: 214630668
+      royal sprite with gun_2: 73749388
+      royal sprite with gun_15: 2013352695
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -48,6 +48,7 @@ public class EnemyController : MonoBehaviour
 
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
 
+        /*
         Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
         if (bulletRb != null)
         {
@@ -55,5 +56,6 @@ public class EnemyController : MonoBehaviour
             float direction = isFacingRight ? 1f : -1f;
             bulletRb.velocity = new Vector2(direction * bulletSpeed, 0f);
         }
+        */
     }
 }

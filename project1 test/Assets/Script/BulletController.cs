@@ -8,7 +8,7 @@ public class BulletController : MonoBehaviour
 
     public float speed;
     public float timeremaining;
-    public float damage;
+    public int damage;
     void Start()
     {
         

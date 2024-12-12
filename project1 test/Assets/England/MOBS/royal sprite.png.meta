@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: royal sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 32
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e398edb88f2d99d49bf348bd96a12102
+      internalID: -2033369830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 652
+        width: 92
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a785f92b79b2f4a47894cbfd709b590d
+      internalID: -1940176087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 651
+        width: 134
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273f18104183c874ea329053fa28f545
+      internalID: 543190375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 652
+        width: 100
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9011dece00a9c9140adbbf0fa422a96d
+      internalID: 1858320855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 652
+        width: 100
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec30cd359f2f9a94d81a753bbd3dde33
+      internalID: 705588013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 650
+        width: 97
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c977281085fcb48998ed8ad27a64a1
+      internalID: 58002768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 652
+        width: 97
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a157d6acf5ec3d24b8f201716b46c667
+      internalID: 2059071372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_7
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 652
+        width: 97
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b805849b8d68bd84a9327b85d0a75aa1
+      internalID: -95664848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 327
+        width: 95
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ab0fd0ae4dff3429df38eabf346419
+      internalID: 1833609173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 327
+        width: 93
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd0c52cfb3ce454e908904bd7c90a5b
+      internalID: -724759987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 327
+        width: 92
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3897c1a488a634db570a3e50583bda
+      internalID: -2121081191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 330
+        width: 152
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450a0842c1240ac4bb5b2ae1de72c10c
+      internalID: -1756217206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_12
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 327
+        width: 97
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d076db6da377d7e40adf32ec572e6fd5
+      internalID: -1424238818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_13
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 336
+        width: 160
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9ff610c537054d87d901fc7a90d18
+      internalID: -584616320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 328
+        width: 112
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c1e79b9e9700f45ba747b1e123c828
+      internalID: 587555525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 133
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48542a1d3c8128489ff3994cb803d43
+      internalID: 1801593687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 8
+        width: 90
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0cfd9afd04ff14987a2280bc791476
+      internalID: 1205854440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 8
+        width: 85
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7518921779c25aa4cbc6d2053c95bee3
+      internalID: 1651138291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 8
+        width: 139
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770e74c5074068043b05aa1e7db3d46d
+      internalID: 262979019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 10
+        width: 144
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341fe95607a253945aa98ff5a950d16b
+      internalID: 1810680748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_20
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 11
+        width: 154
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7a6e59f6267b14c9f9066731d61c71
+      internalID: -915905420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: royal sprite_21
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 11
+        width: 162
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04347faedb6d244b2c94a6e400db85
+      internalID: 1870234576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +576,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      royal sprite_2: 543190375
+      royal sprite_11: -1756217206
+      royal sprite_13: -584616320
+      royal sprite_1: -1940176087
+      royal sprite_16: 1205854440
+      royal sprite_15: 1801593687
+      royal sprite_10: -2121081191
+      royal sprite_17: 1651138291
+      royal sprite_21: 1870234576
+      royal sprite_6: 2059071372
+      royal sprite_12: -1424238818
+      royal sprite_5: 58002768
+      royal sprite_14: 587555525
+      royal sprite_8: 1833609173
+      royal sprite_7: -95664848
+      royal sprite_18: 262979019
+      royal sprite_0: -2033369830
+      royal sprite_20: -915905420
+      royal sprite_9: -724759987
+      royal sprite_3: 1858320855
+      royal sprite_19: 1810680748
+      royal sprite_4: 705588013
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -90,11 +90,6 @@ public class PlayerController : MonoBehaviour
 
         anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
 
-        // Shoot
-        if (Input.GetKeyDown(Return))
-        {
-           
-        }
 
         // Attack Animations
         if (Input.GetKeyDown(attack1Key))
@@ -190,7 +185,7 @@ void OnCollisionExit2D(Collision2D collision)
     }
 }*/
 
- public void ActivateSpeedBoost(float duration)
+    public void ActivateSpeedBoost(float duration)
     {
         moveSpeed *= 2; // Double the speed
         speedBoostTimer = duration; // Set the timer to the duration of the boost
@@ -200,28 +195,28 @@ void OnCollisionExit2D(Collision2D collision)
     {
         moveSpeed /= 2; // Reset the speed to normal
     }
-public void ActivateInvisibility(float duration)
-{
-    isInvisible = true;
-    invisibilityTimer = duration;
+    public void ActivateInvisibility(float duration)
+    {
+        isInvisible = true;
+        invisibilityTimer = duration;
 
-    // Make the player visually semi-transparent
-    spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0.5f);
+        // Make the player visually semi-transparent
+        spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0.5f);
 
-    // Ignore enemy collisions
-    Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), true);
-}
-private void DeactivateInvisibility()
-{
-    isInvisible = false;
+        // Ignore enemy collisions
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), true);
+    }
+    private void DeactivateInvisibility()
+    {
+        isInvisible = false;
 
-    // Restore player visibility
-    spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1f);
+        // Restore player visibility
+        spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1f);
 
-    // Re-enable enemy collisions
-    Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), false);
-}
- public void EnableDoubleJump(float duration)
+        // Re-enable enemy collisions
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), false);
+    }
+    public void EnableDoubleJump(float duration)
     {
         canDoubleJump = true;
         doubleJumpTimer = 15f; // Set the double jump timer

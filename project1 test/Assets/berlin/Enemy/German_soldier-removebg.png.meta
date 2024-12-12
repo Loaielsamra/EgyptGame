@@ -1,0 +1,1947 @@
+fileFormatVersion: 2
+guid: 57e4b178516cfc74b9dfca412d80bd64
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: German_soldier-removebg_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 839
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a860652be4fd6544886443446396483
+      internalID: -125722325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 840
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf784fc529437dc489d45118fcf075f4
+      internalID: -560006391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 841
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21f5ae5a199ea43b296b2234911cb1
+      internalID: -88513702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 841
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdb8d5d37f9824489eac31db0b2ebba
+      internalID: 2107920704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 842
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8be0cb179b0aa44a1703cc3e65b55a
+      internalID: 40728635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 843
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95fab18db4c12f42baf2511ed836318
+      internalID: 1379640656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 843
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3810001bbc7d449be0d83136649269
+      internalID: -184967289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 844
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c327f593c812a42a7eea7377547c9d
+      internalID: 240993288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 845
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44563b1c1bd8eab4da3e3c7c89923561
+      internalID: 104091300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 846
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1fa0e2c843a2d40b2668cc7dc883fb
+      internalID: 1352028515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 786
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba627ab1587214097f2a75ce685eb0
+      internalID: 1176800754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 787
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53c51e2e07618e48993d89a29b0f2e7
+      internalID: -1867761290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 787
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341268d5ee26bc24289c8a0d5efba202
+      internalID: 154709358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 788
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598cc5bfaf34c19498afa5a8cc39f78c
+      internalID: 1182465378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 789
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41d035fd69ff124fb29292515c9eab8
+      internalID: -2135717052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 790
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcb3dd943a1c9947bf9ef14519f969f
+      internalID: 1791006962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 791
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ed84dfc1bc1054bbe0ec308dbc5480
+      internalID: 790543990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_17
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 791
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa94a500a729a45ae9fa7a2ed33014
+      internalID: -540633209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_18
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 792
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2be3aa0bb59f14ea4db2fa9b38ec44
+      internalID: -1747172218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_19
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 792
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0badb66a5eb3edc46bb63ae1978babba
+      internalID: -1008481790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_20
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 792
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77736621026e5af44aacebb9a3c9af6a
+      internalID: 684043189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 697
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bfc28e1ebc6ad45b968bf8c96ebf25
+      internalID: 560674575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 697
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deed9053203accf4f977b473e1eca361
+      internalID: -387023666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 698
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c41fd44873c46b4b86b63c7baf65841
+      internalID: 1619141757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_30
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 698
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571999fc52729334ea51aef3236edb9b
+      internalID: -554189104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 698
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe7145932f6db419b2127c0e8f99ee
+      internalID: -1467384191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_32
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 612
+        width: 66
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b7c41cdebb86847b355b6f0d89e837
+      internalID: 1301641857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 598
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a3ec4d5afe70441aad009860ab6a2b
+      internalID: -862492424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_34
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 598
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70748337296ea2b47943ae3d41ec9ef0
+      internalID: -1186514642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 599
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225061e0766a63d45b0128e50a8b87b0
+      internalID: 1704244028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_36
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 612
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e296ee42f219df444b1105352b012165
+      internalID: -757425169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_47
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 503
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380857b336b02e944addec1e30d0b783
+      internalID: 768551827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_48
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 504
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc051a9c0881444cadb7740e8ef2013
+      internalID: 808297664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 504
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f67ba2790395dd4fb873a2fd1e8650c
+      internalID: 928637692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_50
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 504
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d20168d1281f049a09be230e449ff4
+      internalID: -129624190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_51
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 504
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e11f477a73d854b8ec76e7c300d26a
+      internalID: -751438297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 504
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54131b5b3255a8e4abd2b0596f99b51a
+      internalID: -1895106058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 409
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c496033e0a3be41b2d29da13bb31e3
+      internalID: 709012968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_59
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 409
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8391281bd7becf841993fa9ce1692e9c
+      internalID: 86859182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_60
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 408
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ebc679740976743a8d193046421769
+      internalID: -1457015995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_61
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 410
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a66fa077606457499c2cc42893536fc
+      internalID: 837945858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_62
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 410
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb365c7cab65ad48bd7b0e049670493
+      internalID: -12734286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_80
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 369
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e7085029156274bbdfb6937ed1507d
+      internalID: -1484294950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_82
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 369
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d686aa7da22ba04f8e22225a224bf06
+      internalID: -2027583539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 312
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fb4c9c88c072442ae3733243a0e9b6
+      internalID: 1195424264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_84
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 342
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c8e538fb0b2d0438a5b501165fa27c
+      internalID: -2028943797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_85
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 352
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a1a571dc6b78947ae7bd1b8b838701
+      internalID: -488758369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_86
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 310
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd1826fae4fbba4fa77e069364fd8dd
+      internalID: -419529179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_90
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 345
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e42d5d84d70b48418c15b9867931c8b
+      internalID: -1592596788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_91
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 308
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be459104d685a8f46b0977266b3478cc
+      internalID: 1422617098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 309
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee54ad3cd1d45de4392562b71268126b
+      internalID: -2012870195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_93
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 310
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892cb8dc6cdee3148a4d10c69f033b1c
+      internalID: 1879401103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_95
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 345
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d168f88f0bec8944ea5e314579fa1e2c
+      internalID: -690712632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_102
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 273
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70f6c8078784474b9a5a5013387740b
+      internalID: 2057088192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_103
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 273
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836d7a8c278628d43ac9e8e6595fdb51
+      internalID: -1477242600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_104
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 273
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0624463d528a102488d6ea609b31f66a
+      internalID: 431006796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_105
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 272
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838d201da3c72b14baed988e8b2b092e
+      internalID: -654724955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_106
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 176
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78652223254be9342badc88329c6dc30
+      internalID: 423739529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_107
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9799d66f700b08244b479cf29115ca9a
+      internalID: 1550073391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_108
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 177
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3adcca73af41fa4b948ad35aec116ce
+      internalID: 1908950520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_109
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 177
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b927f2a3244964085508296da8b71a
+      internalID: 1280986110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_110
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 177
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a97e066fda7fa842ad6ea93a4f9947c
+      internalID: 619229364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_111
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 177
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a7858d36d8354c9fa52b46dc1743a
+      internalID: -308172592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_117
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 75
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882523960dfe9a648b59029f64e660a7
+      internalID: 2005164710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 75
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac419379cd5d134a8e32cf512191029
+      internalID: -39199132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_119
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 75
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b91e20e55c6730418ac58538c8db072
+      internalID: -675483554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_120
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 75
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4528c09c05f7914fa279881cbffa0e2
+      internalID: 1501970186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_121
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 75
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dabfca1110726240a165e258c017e08
+      internalID: -1931547019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_122
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 75
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d271e27cb8d42a4893bb7c206e0c32a
+      internalID: -899790880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_123
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 50
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cb509b9e1e52b4fb34d4a9447631f9
+      internalID: -351632544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_124
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 50
+        width: 68
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c656fcf44e8c9f9488bf9116838e4cb3
+      internalID: 1324642888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_125
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 11
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4966504abdc7fcc45ada4fb75f052940
+      internalID: -520614773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_126
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 11
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f1b02780c45ca4bb98544dc494fbc0
+      internalID: -882711272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 12
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1cf621afd881c4ead323caf4b13818
+      internalID: 2010739939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_128
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba87d78f57b63e14cb5557c3df8ed546
+      internalID: 1659475883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_129
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 14
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0a30d9a9530347bfc52f393943b99
+      internalID: -1607979111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_130
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 14
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867a4dda458471c44adb96baa04dc342
+      internalID: -389958622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_131
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 14
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aee6fce2857424eae1695b5870b8be
+      internalID: 2059115764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_132
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 14
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378396bd57281334a9598d3c41c69302
+      internalID: -604091724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_soldier-removebg_133
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 14
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06bf340fb5a534598d984911b5aac9
+      internalID: 575922334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      German_soldier-removebg_17: -540633209
+      German_soldier-removebg_66: 1429955435
+      German_soldier-removebg_73: -795181176
+      German_soldier-removebg_6: -184967289
+      German_soldier-removebg_63: 453215406
+      German_soldier-removebg_78: 138855625
+      German_soldier-removebg_135: 1719316126
+      German_soldier-removebg_112: 19741890
+      German_soldier-removebg_133: 575922334
+      German_soldier-removebg_9: 1352028515
+      German_soldier-removebg_110: 619229364
+      German_soldier-removebg_68: 963157371
+      German_soldier-removebg_3: 2107920704
+      German_soldier-removebg_2: -88513702
+      German_soldier-removebg_69: -1199544780
+      German_soldier-removebg_16: 790543990
+      German_soldier-removebg_91: 1422617098
+      German_soldier-removebg_75: 1454009533
+      German_soldier-removebg_49: 928637692
+      German_soldier-removebg_52: -1895106058
+      German_soldier-removebg_89: -2138165505
+      German_soldier-removebg_5: 1379640656
+      German_soldier-removebg_130: -389958622
+      German_soldier-removebg_139: -1141251742
+      German_soldier-removebg_100: 1537001518
+      German_soldier-removebg_20: 684043189
+      German_soldier-removebg_24: -846697066
+      German_soldier-removebg_14: -2135717052
+      German_soldier-removebg_134: -1417102988
+      German_soldier-removebg_111: -308172592
+      German_soldier-removebg_29: 1619141757
+      German_soldier-removebg_33: -862492424
+      German_soldier-removebg_70: -1574765297
+      German_soldier-removebg_109: 1280986110
+      German_soldier-removebg_50: -129624190
+      German_soldier-removebg_56: -143572029
+      German_soldier-removebg_86: -419529179
+      German_soldier-removebg_122: -899790880
+      German_soldier-removebg_58: 709012968
+      German_soldier-removebg_64: 1114141244
+      German_soldier-removebg_48: 808297664
+      German_soldier-removebg_84: -2028943797
+      German_soldier-removebg_77: -501977811
+      German_soldier-removebg_38: -133115229
+      German_soldier-removebg_116: 1373808005
+      German_soldier-removebg_126: -882711272
+      German_soldier-removebg_1: -560006391
+      German_soldier-removebg_46: 556417134
+      German_soldier-removebg_138: -845049463
+      German_soldier-removebg_27: 560674575
+      German_soldier-removebg_107: 1550073391
+      German_soldier-removebg_12: 154709358
+      German_soldier-removebg_30: -554189104
+      German_soldier-removebg_43: 1153670495
+      German_soldier-removebg_125: -520614773
+      German_soldier-removebg_83: 1195424264
+      German_soldier-removebg_55: -1695116512
+      German_soldier-removebg_92: -2012870195
+      German_soldier-removebg_96: -1507663232
+      German_soldier-removebg_26: -2059597210
+      German_soldier-removebg_47: 768551827
+      German_soldier-removebg_23: -1035343801
+      German_soldier-removebg_28: -387023666
+      German_soldier-removebg_34: -1186514642
+      German_soldier-removebg_62: -12734286
+      German_soldier-removebg_53: -775560921
+      German_soldier-removebg_67: 1205259551
+      German_soldier-removebg_36: -757425169
+      German_soldier-removebg_121: -1931547019
+      German_soldier-removebg_25: -557268492
+      German_soldier-removebg_101: -992232409
+      German_soldier-removebg_90: -1592596788
+      German_soldier-removebg_39: 1526686065
+      German_soldier-removebg_103: -1477242600
+      German_soldier-removebg_4: 40728635
+      German_soldier-removebg_10: 1176800754
+      German_soldier-removebg_42: -125333167
+      German_soldier-removebg_82: -2027583539
+      German_soldier-removebg_60: -1457015995
+      German_soldier-removebg_32: 1301641857
+      German_soldier-removebg_118: -39199132
+      German_soldier-removebg_115: -1096631199
+      German_soldier-removebg_142: 2002983631
+      German_soldier-removebg_80: -1484294950
+      German_soldier-removebg_141: 242761181
+      German_soldier-removebg_143: -822229630
+      German_soldier-removebg_31: -1467384191
+      German_soldier-removebg_106: 423739529
+      German_soldier-removebg_136: 1682271834
+      German_soldier-removebg_15: 1791006962
+      German_soldier-removebg_19: -1008481790
+      German_soldier-removebg_45: 434193040
+      German_soldier-removebg_21: 793981221
+      German_soldier-removebg_76: 1978024954
+      German_soldier-removebg_94: -1289735901
+      German_soldier-removebg_99: -467793454
+      German_soldier-removebg_13: 1182465378
+      German_soldier-removebg_18: -1747172218
+      German_soldier-removebg_119: -675483554
+      German_soldier-removebg_88: -700472313
+      German_soldier-removebg_137: -486540557
+      German_soldier-removebg_128: 1659475883
+      German_soldier-removebg_51: -751438297
+      German_soldier-removebg_114: -1199737508
+      German_soldier-removebg_95: -690712632
+      German_soldier-removebg_123: -351632544
+      German_soldier-removebg_65: -315971849
+      German_soldier-removebg_59: 86859182
+      German_soldier-removebg_124: 1324642888
+      German_soldier-removebg_120: 1501970186
+      German_soldier-removebg_41: 1741899740
+      German_soldier-removebg_0: -125722325
+      German_soldier-removebg_140: -753798627
+      German_soldier-removebg_72: -510602264
+      German_soldier-removebg_61: 837945858
+      German_soldier-removebg_44: -789567861
+      German_soldier-removebg_127: 2010739939
+      German_soldier-removebg_87: -1454591377
+      German_soldier-removebg_117: 2005164710
+      German_soldier-removebg_102: 2057088192
+      German_soldier-removebg_132: -604091724
+      German_soldier-removebg_11: -1867761290
+      German_soldier-removebg_40: -234888123
+      German_soldier-removebg_97: 1832585894
+      German_soldier-removebg_105: -654724955
+      German_soldier-removebg_81: 924507596
+      German_soldier-removebg_113: 907050743
+      German_soldier-removebg_7: 240993288
+      German_soldier-removebg_37: 1514553468
+      German_soldier-removebg_74: -375061005
+      German_soldier-removebg_131: 2059115764
+      German_soldier-removebg_54: 1244151426
+      German_soldier-removebg_71: 1435622456
+      German_soldier-removebg_85: -488758369
+      German_soldier-removebg_98: -1758273126
+      German_soldier-removebg_22: 319414645
+      German_soldier-removebg_8: 104091300
+      German_soldier-removebg_57: 951053413
+      German_soldier-removebg_104: 431006796
+      German_soldier-removebg_108: 1908950520
+      German_soldier-removebg_129: -1607979111
+      German_soldier-removebg_93: 1879401103
+      German_soldier-removebg_79: -1094693554
+      German_soldier-removebg_35: 1704244028
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

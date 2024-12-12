@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rat-background_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1274
+        width: 584
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f540e3a144aae6b45a3bd0796cda0f5d
+      internalID: 542901616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat-background_1
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1242
+        width: 392
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98576be4ad21cb4e97ac68b3ded9e64
+      internalID: -1716781656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat-background_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 730
+        width: 968
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c032324e70b141bc0462558667eb3
+      internalID: -1030076351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat-background_3
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 570
+        width: 520
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca6565155afb4b4ca145641dab18f14
+      internalID: -1142792729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat-background_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 154
+        width: 392
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb105a8deae256449abc99d0b26e8936
+      internalID: 367388815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +219,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rat-background_5: -484341576
+      rat-background_2: -1030076351
+      rat-background_3: -1142792729
+      rat-background_9: -1328801201
+      rat-background_4: 367388815
+      rat-background_10: 1289275776
+      rat-background_7: -1555558785
+      rat-background_1: -1716781656
+      rat-background_6: -1197398453
+      rat-background_8: -1090382550
+      rat-background_0: 542901616
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -108,10 +108,10 @@ TextureImporter:
       name: french army_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 237
-        width: 23
-        height: 40
+        x: 41
+        y: 640
+        width: 52
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: french army_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 237
-        width: 35
-        height: 40
+        x: 138
+        y: 640
+        width: 79
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: french army_2
       rect:
         serializedVersion: 2
-        x: 98
-        y: 237
-        width: 28
-        height: 40
+        x: 269
+        y: 640
+        width: 67
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: french army_3
       rect:
         serializedVersion: 2
-        x: 142
-        y: 237
-        width: 56
-        height: 38
+        x: 26
+        y: 491
+        width: 77
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: french army_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 182
-        width: 31
-        height: 39
+        x: 144
+        y: 491
+        width: 90
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: french army_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 182
-        width: 38
-        height: 39
+        x: 277
+        y: 492
+        width: 78
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: french army_6
       rect:
         serializedVersion: 2
-        x: 98
-        y: 182
-        width: 35
-        height: 39
+        x: 392
+        y: 491
+        width: 72
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: french army_7
       rect:
         serializedVersion: 2
-        x: 145
-        y: 182
-        width: 28
-        height: 38
+        x: 490
+        y: 493
+        width: 74
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: french army_8
       rect:
         serializedVersion: 2
-        x: 181
-        y: 183
-        width: 29
-        height: 39
+        x: 23
+        y: 349
+        width: 90
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: french army_9
       rect:
         serializedVersion: 2
-        x: 8
-        y: 130
-        width: 34
-        height: 41
+        x: 131
+        y: 351
+        width: 85
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: french army_10
       rect:
         serializedVersion: 2
-        x: 49
-        y: 130
-        width: 32
-        height: 39
+        x: 249
+        y: 354
+        width: 91
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: french army_11
       rect:
         serializedVersion: 2
-        x: 92
-        y: 131
-        width: 35
-        height: 38
+        x: 381
+        y: 354
+        width: 56
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: french army_12
       rect:
         serializedVersion: 2
-        x: 140
-        y: 131
-        width: 23
-        height: 37
+        x: 41
+        y: 193
+        width: 69
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: french army_13
       rect:
         serializedVersion: 2
-        x: 189
-        y: 159
-        width: 13
-        height: 11
+        x: 145
+        y: 195
+        width: 80
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: french army_14
       rect:
         serializedVersion: 2
-        x: 188
-        y: 143
-        width: 14
-        height: 9
+        x: 264
+        y: 196
+        width: 62
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: french army_15
       rect:
         serializedVersion: 2
-        x: 187
-        y: 127
-        width: 14
-        height: 9
+        x: 382
+        y: 201
+        width: 76
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: french army_16
       rect:
         serializedVersion: 2
-        x: 14
-        y: 70
-        width: 28
-        height: 42
+        x: 502
+        y: 201
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: french army_17
       rect:
         serializedVersion: 2
-        x: 50
-        y: 72
-        width: 35
-        height: 42
+        x: 32
+        y: 36
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: french army_18
       rect:
         serializedVersion: 2
-        x: 97
-        y: 73
-        width: 25
-        height: 41
+        x: 153
+        y: 32
+        width: 79
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: french army_19
       rect:
         serializedVersion: 2
-        x: 140
-        y: 74
-        width: 31
-        height: 42
+        x: 442
+        y: 105
+        width: 122
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: french army_20
       rect:
         serializedVersion: 2
-        x: 181
-        y: 74
-        width: 38
-        height: 42
+        x: 270
+        y: 31
+        width: 121
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: french army_21
       rect:
         serializedVersion: 2
-        x: 12
-        y: 13
-        width: 31
-        height: 34
+        x: 444
+        y: 34
+        width: 119
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,90 +562,6 @@ TextureImporter:
       bones: []
       spriteID: 99cfd163e695cf443b202f5e25582204
       internalID: 15453758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: french army_22
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 10
-        width: 32
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19aa61c03d5d1a34ea60523b7ccb34a4
-      internalID: -1058549761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: french army_23
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 39
-        width: 47
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9156f7779b2e6c41aff13ba14dc8063
-      internalID: 1791901236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: french army_24
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 11
-        width: 47
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 914d34a02e023ab4ca2b23fc8e457a17
-      internalID: -1604321917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: french army_25
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 12
-        width: 47
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef20397e3da06e54182141e5f503637f
-      internalID: -1609322065
       vertices: []
       indices: 
       edges: []
@@ -667,16 +583,12 @@ TextureImporter:
       french army_12: -701577041
       french army_6: 608251083
       french army_3: -720181268
-      french army_24: -1604321917
       french army_10: -1106576168
-      french army_23: 1791901236
       french army_1: -1944342749
       french army_18: -2119524174
       french army_19: 1923296010
-      french army_25: -1609322065
       french army_7: -794653540
       french army_11: 2140121675
-      french army_22: -1058549761
       french army_16: 498093412
       french army_4: -28420338
       french army_2: 1969921417
