@@ -27,18 +27,18 @@ public class PlayerController : MonoBehaviour
     public AudioClip jump1;
     public AudioClip jump2;
 
-   public PhysicsMaterial2D defaultMaterial; // Normal friction material
-   public PhysicsMaterial2D stickyMaterial;  // Low friction material
-   private Collider2D playerCollider;
+    public PhysicsMaterial2D defaultMaterial; // Normal friction material
+    public PhysicsMaterial2D stickyMaterial;  // Low friction material
+    private Collider2D playerCollider;
 
-   bool isInvisible = false; // To track invisibility status
-   private float invisibilityTimer = 0f; // Timer for invisibility
-   private SpriteRenderer spriteRenderer; // Reference to the player's sprite renderer
+    bool isInvisible = false; // To track invisibility status
+    private float invisibilityTimer = 0f; // Timer for invisibility
+    private SpriteRenderer spriteRenderer; // Reference to the player's sprite renderer
 
-  private float speedBoostTimer = 0f;
+    private float speedBoostTimer = 0f;
 
- public float doubleJumpHeight; // Height for double jump
- private bool canDoubleJump = false; // Flag to track if double jump is available
+    public float doubleJumpHeight; // Height for double jump
+    private bool canDoubleJump = false; // Flag to track if double jump is available
     private float doubleJumpTimer = 0f; // Timer for double jump duration
 
 
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>();
-	spriteRenderer = GetComponent<SpriteRenderer>();
+	    spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -108,11 +108,11 @@ public class PlayerController : MonoBehaviour
         // Defend Animation
         if (Input.GetKey(defendKey))
         {
-            anim.SetBool("Defending", true);
+            //anim.SetBool("Defending", true);
         }
         else
         {
-            anim.SetBool("Defending", false);
+            //anim.SetBool("Defending", false);
         }
 	// Handle invisibility timer
     if (isInvisible)
@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour
                 DeactivateSpeedBoost(); // Revert back to normal speed
             }
         }
-if (canDoubleJump)
+        if (canDoubleJump)
         {
             doubleJumpTimer -= Time.deltaTime;
             if (doubleJumpTimer <= 0)
@@ -144,8 +144,6 @@ if (canDoubleJump)
     void Jump()
     {
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
-       
-      
     }
 
      void DoubleJump()
@@ -159,31 +157,30 @@ if (canDoubleJump)
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
     }
 
-
-
     public void GetHit()
     {
         anim.SetTrigger("Hit");
     }
-	/*void OnCollisionEnter2D(Collision2D collision)
-{
-    // Check if the object is tagged as "Sticky"
-    if (collision.gameObject.CompareTag("Sticky"))
-    {
-        Debug.Log("Touched a sticky object!");
-        playerCollider.sharedMaterial = stickyMaterial; // Apply sticky material
-    }
-}
 
-void OnCollisionExit2D(Collision2D collision)
-{
-    // Revert back to default material when leaving the sticky object
-    if (collision.gameObject.CompareTag("Sticky"))
+	/*void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Left the sticky object.");
-        playerCollider.sharedMaterial = defaultMaterial;
+        // Check if the object is tagged as "Sticky"
+        if (collision.gameObject.CompareTag("Sticky"))
+        {
+            Debug.Log("Touched a sticky object!");
+            playerCollider.sharedMaterial = stickyMaterial; // Apply sticky material
+        }
     }
-}*/
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        // Revert back to default material when leaving the sticky object
+        if (collision.gameObject.CompareTag("Sticky"))
+        {
+            Debug.Log("Left the sticky object.");
+            playerCollider.sharedMaterial = defaultMaterial;
+        }
+    }*/
 
     public void ActivateSpeedBoost(float duration)
     {
