@@ -3,16 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - SpeedToken
+  - UpwordArrowToken
+  - EyeOfHorusToken
+  - KeyOfLifeToken
+  - EagleToken
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - 
-  - 
+  - foreground
+  - ground
   - 
   - 
   - 
@@ -41,18 +47,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3087920263
+  - name: background
+    uniqueID: 3790207379
     locked: 0
-  - name: Platform
-    uniqueID: 767475467
+  - name: foreground
+    uniqueID: 1865401709
     locked: 0
   - name: Obstacles
-    uniqueID: 3284486103
+    uniqueID: 1597705581
     locked: 0
   - name: token
-    uniqueID: 2690265821
+    uniqueID: 1481459013
     locked: 0
-  - name: Character
-    uniqueID: 1747960421
+  - name: charc
+    uniqueID: 1108480879
     locked: 0
