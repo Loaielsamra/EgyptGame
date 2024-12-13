@@ -5,7 +5,9 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    private GameObject dialogueCanvas;
+    public TMP_Text dialogueText;
+
+    public GameObject dialogueCanvas;
 
     public KeyCode interactKey;
 
@@ -13,20 +15,36 @@ public class Dialogue : MonoBehaviour
 
     [TextArea]
     public string[] dialogueWords;
+    private int step;
 
+    //private bool DialogueDone = false;
+    //private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(interactKey))
+        if (Input.GetKeyDown(interactKey) && dialogueActivated == true)
         {
-            dialogueCanvas.SetActive(true);
-
+            if (step == dialogueWords.Length)
+            {
+                dialogueCanvas.SetActive(false);
+                //DialogueDone = true;
+                //anim.SetBool("Done", DialogueDone)
+                Time.timeScale = 1;
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                Time.timeScale = 0;
+                dialogueCanvas.SetActive(true);
+                dialogueText.text = dialogueWords[step];
+                step += 1;
+            }
         }
     }
 
