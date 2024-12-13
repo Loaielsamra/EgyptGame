@@ -9,9 +9,12 @@ public class BulletController : MonoBehaviour
     public float speed;
     public float timeremaining;
     public int damage;
+
+    private Animator anim;
+
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -26,6 +29,8 @@ public class BulletController : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        anim.SetFloat("speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
     }
 
     void OnTriggerEnter2D(Collider2D other)

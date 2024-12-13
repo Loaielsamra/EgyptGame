@@ -21064,10 +21064,10 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0.2
+  m_EdgeRadius: 0
   m_Points:
-  - {x: -0.166851, y: -0.11341227}
-  - {x: 0.08189718, y: 0.17935394}
+  - {x: -0.105293386, y: -0.20217796}
+  - {x: 0.1579357, y: 0.10795903}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -27486,10 +27486,10 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0.2
+  m_EdgeRadius: 0
   m_Points:
-  - {x: -0.16284595, y: -0.10924064}
-  - {x: 0.10561496, y: 0.18313229}
+  - {x: -0.08330114, y: -0.18451193}
+  - {x: 0.10886769, y: 0.1275879}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -49435,6 +49435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentCheckpoint: {fileID: 0}
   enemy: {fileID: 7003843908262227424, guid: fc2abb61d12b77f49ab4afcda7f64f70, type: 3}
+  enemySpawnPoint: {fileID: 0}
+  enemySpawnInterval: 1
 --- !u!4 &1232266919
 Transform:
   m_ObjectHideFlags: 0
@@ -54376,19 +54378,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7438519669956201164, guid: 28786a36e0f98434a86828831a665a43, type: 3}
       propertyPath: m_Size.x
-      value: 0.34
+      value: 0.23427336
       objectReference: {fileID: 0}
     - target: {fileID: 7438519669956201164, guid: 28786a36e0f98434a86828831a665a43, type: 3}
       propertyPath: m_Size.y
-      value: 0.37
+      value: 0.32782048
       objectReference: {fileID: 0}
     - target: {fileID: 7438519669956201164, guid: 28786a36e0f98434a86828831a665a43, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: -0.052863307
       objectReference: {fileID: 0}
     - target: {fileID: 7438519669956201164, guid: 28786a36e0f98434a86828831a665a43, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: 0.021089762
       objectReference: {fileID: 0}
     - target: {fileID: 7438519669956201164, guid: 28786a36e0f98434a86828831a665a43, type: 3}
       propertyPath: m_EdgeRadius

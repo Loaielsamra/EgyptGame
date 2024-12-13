@@ -10,6 +10,7 @@ TagManager:
   - EyeOfHorusToken
   - KeyOfLifeToken
   - EagleToken
+  - NextScene
   layers:
   - Default
   - TransparentFX

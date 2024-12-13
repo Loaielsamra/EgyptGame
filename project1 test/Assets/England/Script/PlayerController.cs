@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -115,15 +116,15 @@ public class PlayerController : MonoBehaviour
             //anim.SetBool("Defending", false);
         }
 	// Handle invisibility timer
-    if (isInvisible)
-    {
-        invisibilityTimer -= Time.deltaTime;
-        if (invisibilityTimer <= 0)
+        if (isInvisible)
         {
-            DeactivateInvisibility();
+            invisibilityTimer -= Time.deltaTime;
+            if (invisibilityTimer <= 0)
+            {
+                DeactivateInvisibility();
+            }
         }
-    }
- if (speedBoostTimer > 0)
+        if (speedBoostTimer > 0)
         {
             speedBoostTimer -= Time.deltaTime;
             if (speedBoostTimer <= 0)
@@ -146,7 +147,7 @@ public class PlayerController : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
     }
 
-     void DoubleJump()
+    void DoubleJump()
     {
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, doubleJumpHeight);
         canDoubleJump = false; // Disable double jump after it's used
@@ -219,4 +220,11 @@ public class PlayerController : MonoBehaviour
         doubleJumpTimer = 15f; // Set the double jump timer
     }
     // Set the double jump timer to 15 seconds
+    public void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.tag == "NextScene")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
 }
