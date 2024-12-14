@@ -11,6 +11,7 @@ TagManager:
   - KeyOfLifeToken
   - EagleToken
   - NextScene
+  - Ladder
   layers:
   - Default
   - TransparentFX
