@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: 2352077dd199cb44a8249dcd5131aba2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 271
+        width: 72
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e5cb44ed4ec474a87c4f9ed2d8ec7d
+      internalID: -1515301913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 412
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141b57c6f84888c4d9f2df3e0fa47992
+      internalID: 676034155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 401
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeb0db7e305276469de204ab0b88f1a
+      internalID: 863366557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 188
+        width: 32
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b5f4b696616b419eccde7b6bbd4f4
+      internalID: 1748141751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1
+        width: 177
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020114928305854ca783a03ffe80749
+      internalID: -2066473323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 339
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e5bbfa5439f1a4ea5470e486801ed4
+      internalID: 1779202058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 368
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d1a5053f36a5047afd0aa0e3db5b14
+      internalID: -2054801223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 303
+        width: 91
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae65895a122875488cdfccb6fc6c663
+      internalID: 1613646224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 332
+        width: 87
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a864810c70a201c45b051629df33b011
+      internalID: -306196711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 215
+        width: 84
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4b99b4f30401c42ab7ce8e9697346d
+      internalID: -1403176546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 262
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a46b04e58ee7841bfa43f93971cb59
+      internalID: 1471373783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 238
+        width: 87
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39799eee55eaff94296419460efb0121
+      internalID: -2051374488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 187
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85c7bcbf99935346a0d0851de0534ea
+      internalID: 367800021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 162
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01f1a0c745869342b2f65df35ebf006
+      internalID: 883584324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 29
+        width: 80
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee3cbf4fb13488408e5f5f5b03be099
+      internalID: 1487814278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 129
+        width: 100
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b9132ec357814e8dd73ad3e8578cf
+      internalID: -791037972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 65
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe83e3cc7237d4c80ba66ca1e73c30
+      internalID: -1824408391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 97
+        width: 26
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de3252d12e922b4884efe4eb1d144ee
+      internalID: 693868761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 73
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8478bb5e150ac6f409d7c020ddf411c3
+      internalID: 93721196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 114
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0187da754305d5a44beb240ba5fce94c
+      internalID: -1466995718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 20
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e0bf44c5ba8704bab895898ad2a7fe
+      internalID: 625969858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 33
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5545a20c858fffd41a309cd88d38bf28
+      internalID: -2037481700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 33
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2922201d805977489259de365e11eb0
+      internalID: 803206124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_11: -2051374488
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_17: 693868761
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_2: 863366557
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_4: -2066473323
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_14: 1487814278
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_3: 1748141751
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_19: -1466995718
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_8: -306196711
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_18: 93721196
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_6: -2054801223
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_12: 367800021
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_5: 1779202058
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_16: -1824408391
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_15: -791037972
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_20: 625969858
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_7: 1613646224
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_10: 1471373783
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_21: -2037481700
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_22: 803206124
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_0: -1515301913
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_1: 676034155
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_9: -1403176546
+      egypt-landmarks-religious-elements-set-pharaoh-sarcophagus-scroll_951778-23096-removebg-preview_13: 883584324
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: e08b1a4185ebbd040804974e42235f7d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 278
+        width: 129
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c091e1100ebbe8489c208fcdfc1b0b4
+      internalID: 2015644805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 302
+        width: 69
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6252b7bcc3b640147b464f8cb8366816
+      internalID: 894298738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 450
+        width: 264
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144fe8cc7edea6e4b84b3d72df4fa4a6
+      internalID: -141438744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 385
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b31ed8f6df4804eb604d0eb060c7f6
+      internalID: -648470081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 264
+        width: 140
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0739d0abc4b99444da2829492dfdadc7
+      internalID: -1661384001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 395
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525c210051e0b946b7f26417d72b25a
+      internalID: 1140265315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 397
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed60446e01e6afb48943cda5ed0da3a5
+      internalID: -1047090992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 395
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80c5eb58d29eaa4caf2e22354b61886
+      internalID: 738718226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 346
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113c3092534fe644baa2d4576cc8203d
+      internalID: -1426934591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 154
+        width: 163
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820a82bec5112da4faf35749f404081f
+      internalID: -2081743328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 175
+        width: 75
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e74b41b07e5c14ba631a95eccf08b2
+      internalID: 658605745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 207
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0357348c5b2ce28429cf6785c6ff0eff
+      internalID: -1429094373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 92
+        width: 127
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ab4041acb4b0459b4d86494c25fd4
+      internalID: -1817430487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be265811e901b14e9c73e3b2156809e
+      internalID: 751348656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccb896c15fe5294e80febeee347638a
+      internalID: -1645777224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 102
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cef54ca47948ee4b8add5d1cd7f30ed
+      internalID: 676104871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f59c61b6ca7a4db8bab10d55a3424
+      internalID: 1311036867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 6
+        width: 77
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089441b9f32c18645bdf6b911312b5b3
+      internalID: 1541824255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e235a025fe21b741b67d6e5529e6c50
+      internalID: 1801687800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 6
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e352c714f3a894145a5d4e3105b7aea8
+      internalID: 1786171312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 237
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6882c9ac8559e914cac0b23a6166c5db
+      internalID: 449127836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 101
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd066dc2bd17df0429d6bb6bcb9b91f5
+      internalID: 150373138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 100
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7569084e801234c9365da054fb05ef
+      internalID: -13699009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EGYPTI_1-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 358
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf9026f2087824eb89721e9fcd048b
+      internalID: 885733428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EGYPTI_1-removebg-preview_2: -141438744
+      EGYPTI_1-removebg-preview_9: -2081743328
+      EGYPTI_1-removebg-preview_3: -648470081
+      EGYPTI_1-removebg-preview_13: 751348656
+      EGYPTI_1-removebg-preview_15: 676104871
+      EGYPTI_1-removebg-preview_5: 1140265315
+      EGYPTI_1-removebg-preview_10: 658605745
+      EGYPTI_1-removebg-preview_1: 894298738
+      EGYPTI_1-removebg-preview_22: -13699009
+      EGYPTI_1-removebg-preview_16: 1311036867
+      EGYPTI_1-removebg-preview_0: 2015644805
+      EGYPTI_1-removebg-preview_11: -1429094373
+      EGYPTI_1-removebg-preview_4: -1661384001
+      EGYPTI_1-removebg-preview_8: -1426934591
+      EGYPTI_1-removebg-preview_17: 1541824255
+      EGYPTI_1-removebg-preview_19: 1786171312
+      EGYPTI_1-removebg-preview_20: 449127836
+      EGYPTI_1-removebg-preview_14: -1645777224
+      EGYPTI_1-removebg-preview_6: -1047090992
+      EGYPTI_1-removebg-preview_7: 738718226
+      EGYPTI_1-removebg-preview_21: 150373138
+      EGYPTI_1-removebg-preview_23: 885733428
+      EGYPTI_1-removebg-preview_18: 1801687800
+      EGYPTI_1-removebg-preview_12: -1817430487
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
