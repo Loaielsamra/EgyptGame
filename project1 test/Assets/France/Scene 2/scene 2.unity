@@ -7356,7 +7356,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dungeon Tile Set_57 (90)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4353924173361630996, guid: 9dc6cac37b6e09146afdc8a2671d1c31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9dc6cac37b6e09146afdc8a2671d1c31, type: 3}
 --- !u!1001 &492245989
 PrefabInstance:
@@ -15819,7 +15820,7 @@ GameObject:
   - component: {fileID: 1073971079}
   m_Layer: 0
   m_Name: portal
-  m_TagString: Untagged
+  m_TagString: NextScene
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21879,7 +21880,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dungeon Tile Set_57 (91)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4353924173361630996, guid: 9dc6cac37b6e09146afdc8a2671d1c31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9dc6cac37b6e09146afdc8a2671d1c31, type: 3}
 --- !u!1001 &1435740919
 PrefabInstance:

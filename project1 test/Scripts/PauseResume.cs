@@ -48,7 +48,7 @@ public class PauseResume : MonoBehaviour
     }
     public void Restart()
     {
-        Time.timeScale = 1; // Ensure the game is running normally
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
