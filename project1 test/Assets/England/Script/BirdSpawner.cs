@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine;
-
 public class BirdSpawner : MonoBehaviour
 {
     // Prefab of the bird to spawn
