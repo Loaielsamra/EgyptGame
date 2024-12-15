@@ -73,12 +73,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -504759917
-  m_SortingLayer: 1
-  m_SortingOrder: -1
+  m_SortingLayerID: 1865401709
+  m_SortingLayer: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -910290064, guid: 8473573f8579e504b9dd267e323665b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.6, y: 0.8}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   flyDirection: {x: 1, y: 0, z: 0}
-  lifetime: 10
+  chirpInterval: 1
 --- !u!114 &3442605873514266380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +116,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   birdPrefab: {fileID: 3734204045320382691}
   spawnPoint: {fileID: 0}
-  spawnInterval: 3
+  lifetime: 15
+  spawnInterval: 15
 --- !u!95 &4857397658263427952
 Animator:
   serializedVersion: 4

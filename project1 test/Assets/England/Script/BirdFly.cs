@@ -11,17 +11,15 @@ public class BirdFly : MonoBehaviour
     public Vector3 flyDirection = Vector3.forward;
 
     // Time before the bird is destroyed
-    public float lifetime = 10f;
 
-    public AudioClip chirpSound;
+   // public AudioClip chirpSound;
     public float chirpInterval = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("Chirp", chirpInterval, chirpInterval);
-        // Destroy the bird after its lifetime expires
-        Destroy(gameObject, lifetime);
+       
     }
 
     // Update is called once per frame
@@ -31,8 +29,8 @@ public class BirdFly : MonoBehaviour
         transform.Translate(flyDirection * speed * Time.deltaTime);
     }
 
-    public void Chirp()
+    /*public void Chirp()
     {
         AudioManager.instance.PlaySingle(chirpSound);
-    }
+    }*/
 }
