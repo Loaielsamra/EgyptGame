@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/newyork/Scene 1/NY_Scene1.unity
+    guid: c171de02c7b54ae4da177a48b726f2d8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/newyork/Scene 2/NY_Scene 2.unity
+    guid: 000240a4e24b1e94e84502fbc2e0fcce
+  - enabled: 1
+    path: Assets/newyork/Scene 3/NY_Scene3.unity
+    guid: 6949221aa535db94694e28183467a35c
+  - enabled: 1
+    path: Assets/newyork/Scene 4/NY_Scene4.unity
+    guid: af9073162fe019548a88dab2241406f6
+  - enabled: 1
+    path: Assets/newyork/Scene 5/NY_Scene5.unity
+    guid: dc232c88fb5e27e459d0235178e48d35
+  - enabled: 1
+    path: Assets/newyork/Scene 6/NY_Scene6.unity
+    guid: 419c7815a6cb8ed43b580b24a0606a33
   m_configObjects: {}

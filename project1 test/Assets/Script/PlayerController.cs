@@ -102,15 +102,18 @@ public class PlayerController : MonoBehaviour
 
         // Attack Animations
         
+        
         if (Input.GetKeyDown(attack1Key))
         {
-            anim.SetTrigger("Attack1");
+            PerformAttack("Attack1", damage);
             isAttacking = true;
         }
         else{
             isAttacking = false;
         }
         anim.SetBool("isAttacking", isAttacking);
+        
+
         /*
         else if (Input.GetKeyDown(attack2Key))
         {
@@ -124,7 +127,7 @@ public class PlayerController : MonoBehaviour
         }
         */
 
-        HandleAttacks();
+        // HandleAttacks();
 
         if (attackCooldownTimer > 0)
         {
@@ -232,12 +235,6 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-
-        if (collider.tag == "Enemy")
-        {
-            collider.GetComponent<EnemyController>().TakeDamage(damage);
-            Debug.Log("Enemy hit!");
-        }
     }
 
     void HandleAttacks()
@@ -262,50 +259,50 @@ public class PlayerController : MonoBehaviour
     }
 
     void PerformAttack(string animationTrigger, int attackDamage)
-{
-    if (anim == null || attackPoint == null)
     {
-        Debug.LogError("Animator or AttackPoint is not assigned.");
-        return;
-    }
-
-    isAttacking = true;
-    anim.SetTrigger(animationTrigger);
-    Debug.Log("Attack triggered with animation: " + animationTrigger);
-
-    // Detect enemies in the attack range
-    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
-    Debug.Log("Number of enemies hit: " + hitEnemies.Length);
-
-    foreach (Collider2D enemy in hitEnemies)
-    {
-        if (enemy.CompareTag("Enemy"))
+        if (anim == null || attackPoint == null)
         {
-            EnemyController enemyController = enemy.GetComponent<EnemyController>();
-            if (enemyController != null)
+            Debug.LogError("Animator or AttackPoint is not assigned.");
+            return;
+        }
+
+        isAttacking = true;
+        anim.SetTrigger(animationTrigger);
+        Debug.Log("Attack triggered with animation: " + animationTrigger);
+
+        // Detect enemies in the attack range
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
+        Debug.Log("Number of enemies hit: " + hitEnemies.Length);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            if (enemy.tag == "Enemy")
             {
-                Debug.Log("Enemy hit: " + enemy.name);
-                enemyController.TakeDamage(attackDamage);
-            }
-            else
-            {
-                Debug.LogError("EnemyController component missing on: " + enemy.name);
+                EnemyController enemyController = enemy.GetComponent<EnemyController>();
+                if (enemyController != null)
+                {
+                    Debug.Log("Enemy hit: " + enemy.name);
+                    enemyController.TakeDamage(attackDamage);
+                }
+                else
+                {
+                    Debug.LogError("EnemyController component missing on: " + enemy.name);
+                }
             }
         }
+
+        // Start attack cooldown
+        attackCooldownTimer = attackCooldown;
+
+        // Reset attack state after animation ends
+        StartCoroutine(ResetAttackState(anim.GetCurrentAnimatorStateInfo(0).length));
     }
 
-    // Start attack cooldown
-    attackCooldownTimer = attackCooldown;
-
-    // Reset attack state after animation ends
-    StartCoroutine(ResetAttackState(anim.GetCurrentAnimatorStateInfo(0).length));
-}
-
-IEnumerator ResetAttackState(float delay)
-{
-    yield return new WaitForSeconds(delay);
-    isAttacking = false;
-    Debug.Log("Attack state reset after delay: " + delay);
-}
+    IEnumerator ResetAttackState(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        isAttacking = false;
+        Debug.Log("Attack state reset after delay: " + delay);
+    }
 
 }
