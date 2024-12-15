@@ -17,12 +17,13 @@ public class Dialogue : MonoBehaviour
     public string[] dialogueWords;
     private int step;
 
-    //private bool DialogueDone = false;
-    //private Animator anim;
+    private bool DialogueDone = false;
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        //anim = GetComponent<Animator>();
+
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,10 +34,9 @@ public class Dialogue : MonoBehaviour
             if (step == dialogueWords.Length)
             {
                 dialogueCanvas.SetActive(false);
-                //DialogueDone = true;
-                //anim.SetBool("Done", DialogueDone)
+                DialogueDone = true;
+                anim.SetBool("done", DialogueDone);
                 Time.timeScale = 1;
-                Destroy(this.gameObject);
             }
             else
             {
@@ -52,7 +52,9 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+
             dialogueActivated = true;
+
         }
     }
 
