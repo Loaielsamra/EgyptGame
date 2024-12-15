@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3000607008954092552}
   - component: {fileID: 1376273471525920027}
   - component: {fileID: 4353924173361630996}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: dingeontile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
