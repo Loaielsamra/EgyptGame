@@ -14,6 +14,8 @@ public class EnemyController : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletSpawnPoint;
 
+    public float health;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +48,7 @@ public class EnemyController : MonoBehaviour
     {
         if (bulletPrefab == null || bulletSpawnPoint == null) return;
 
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
 
         /*
         Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
@@ -57,5 +59,14 @@ public class EnemyController : MonoBehaviour
             bulletRb.velocity = new Vector2(direction * bulletSpeed, 0f);
         }
         */
+    }
+
+    public void TakeDamage(int damage)
+    {
+        this.health = this.health - damage;
+        if (this.health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -12,10 +12,12 @@ public class PlayerController : MonoBehaviour
     public KeyCode L;
     public KeyCode R;
 
+    public int damage;
     public KeyCode attack1Key;
     public KeyCode attack2Key;
     public KeyCode attack3Key;
     public KeyCode defendKey;
+    public bool isAttacking;
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -96,14 +98,17 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(attack1Key))
         {
             anim.SetTrigger("Attack1");
+            isAttacking = true;
         }
         else if (Input.GetKeyDown(attack2Key))
         {
             anim.SetTrigger("Attack2");
+            isAttacking = true;
         }
         else if (Input.GetKeyDown(attack3Key))
         {
             anim.SetTrigger("Attack3");
+            isAttacking = true;
         }
 
         // Defend Animation
@@ -115,7 +120,8 @@ public class PlayerController : MonoBehaviour
         {
             //anim.SetBool("Defending", false);
         }
-	// Handle invisibility timer
+
+	    // Handle invisibility timer
         if (isInvisible)
         {
             invisibilityTimer -= Time.deltaTime;
@@ -225,6 +231,12 @@ public class PlayerController : MonoBehaviour
         if (collider.tag == "NextScene")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+        if (collider.tag == "Enemy")
+        {
+            collider.GetComponent<EnemyController>().TakeDamage(damage);
+            Debug.Log("Enemy hit!");
         }
     }
 }
