@@ -100,10 +100,10 @@ public class ItemCollectionHandler : MonoBehaviour
         // Logic to enable the double jump ability
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // Check for item collisions
-        if (other.CompareTag("Item"))
+        if (other.CompareTag("Player"))
         {
             CollectItem(other.gameObject.name);
             Destroy(other.gameObject); // Destroy the item after collection

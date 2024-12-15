@@ -42,7 +42,6 @@ public class WalkingEnemy : EnemyController
         if (collider.tag == "Player")
         {
             FindObjectOfType<PlayerStats>().TakeDamage(damage);
-            Flip();
         }
     }
 }

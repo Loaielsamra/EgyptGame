@@ -199,6 +199,7 @@ public class PlayerController : MonoBehaviour
     {
         moveSpeed /= 2; // Reset the speed to normal
     }
+    
     public void ActivateInvisibility(float duration)
     {
         isInvisible = true;
@@ -207,7 +208,7 @@ public class PlayerController : MonoBehaviour
         // Make the player visually semi-transparent
         spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0.5f);
 
-        this.gameObject.GetComponent<PlayerStats>().PlayHitReaction();
+        this.gameObject.GetComponent<PlayerStats>().GrantImmunity();
     }
     private void DeactivateInvisibility()
     {
