@@ -25,6 +25,7 @@ public class LevelManager : MonoBehaviour
 
     public void RespawnPlayer()
     {
+        FindObjectOfType<PlayerStats>().InstaKill();
         FindObjectOfType<PlayerController>().transform.position = CurrentCheckpoint.transform.position;
     }
 

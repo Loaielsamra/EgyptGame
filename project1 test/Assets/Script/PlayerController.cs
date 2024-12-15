@@ -207,8 +207,7 @@ public class PlayerController : MonoBehaviour
         // Make the player visually semi-transparent
         spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0.5f);
 
-        // Ignore enemy collisions
-        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), true);
+        this.gameObject.GetComponent<PlayerStats>().PlayHitReaction();
     }
     private void DeactivateInvisibility()
     {

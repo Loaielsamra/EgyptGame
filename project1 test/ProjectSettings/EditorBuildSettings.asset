@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/newyork/Scene 1/NY_Scene1.unity
     guid: c171de02c7b54ae4da177a48b726f2d8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/newyork/Scene 2/NY_Scene2.unity
-    guid: cebbee77eb96e9c489cdf2c0fa647c43
+    path: Assets/newyork/Scene 2/NY_Scene 2.unity
+    guid: 000240a4e24b1e94e84502fbc2e0fcce
   m_configObjects: {}

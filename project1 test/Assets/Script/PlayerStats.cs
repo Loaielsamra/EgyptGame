@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-   public int health = 6; 
+    public int health = 6; 
     public int lives = 3;
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
@@ -14,6 +15,8 @@ public class PlayerStats : MonoBehaviour
     public float immunityDuration = 1.5f;
     public int coinsCollected = 0;
 
+    public Image healthBar;
+    public Image CurseBar;
  
 
     // Start is called before the first frame update
@@ -35,6 +38,8 @@ public class PlayerStats : MonoBehaviour
                 this.spriteRenderer.enabled = true;
             }
         }
+
+        healthBar.fillAmount = this.health/6f;
     }
     void SpriteFlicker()
     {
@@ -80,5 +85,16 @@ public class PlayerStats : MonoBehaviour
         this.isImmune = true;
         this.immunityTime = 0f;
     }
-  
+
+    public void InstaKill()
+    {
+        this.lives--;
+
+        if (this.lives == 0)
+        {
+            Debug.Log("GameOver");
+                
+            Destroy(this.gameObject);
+        }
+    }
 }
