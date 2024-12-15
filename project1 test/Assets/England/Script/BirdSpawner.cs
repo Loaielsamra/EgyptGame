@@ -9,7 +9,6 @@ public class BirdSpawner : MonoBehaviour
 
     // Spawn location
     public Transform spawnPoint;
-    public float lifetime = 10f;
 
     // Time between spawns in seconds
     public float spawnInterval = 4f;
@@ -20,7 +19,7 @@ public class BirdSpawner : MonoBehaviour
         // Start spawning birds
         StartCoroutine(SpawnBirds());
         // Destroy the bird spawner game object after its lifetime has elapsed
-        Destroy(birdPrefab, lifetime);
+      
 
     }
 

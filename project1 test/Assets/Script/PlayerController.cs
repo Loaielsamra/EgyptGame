@@ -101,12 +101,17 @@ public class PlayerController : MonoBehaviour
 
 
         // Attack Animations
-        /*
+        
         if (Input.GetKeyDown(attack1Key))
         {
             anim.SetTrigger("Attack1");
             isAttacking = true;
         }
+        else{
+            isAttacking = false;
+        }
+        anim.SetBool("isAttacking", isAttacking);
+        /*
         else if (Input.GetKeyDown(attack2Key))
         {
             anim.SetTrigger("Attack2");
