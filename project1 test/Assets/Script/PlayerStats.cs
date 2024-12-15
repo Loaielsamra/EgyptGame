@@ -80,7 +80,7 @@ public class PlayerStats : MonoBehaviour
         }
         PlayHitReaction();
     }
-    void PlayHitReaction()
+    public void PlayHitReaction()
     {
         this.isImmune = true;
         this.immunityTime = 0f;

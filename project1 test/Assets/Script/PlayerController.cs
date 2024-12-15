@@ -12,12 +12,18 @@ public class PlayerController : MonoBehaviour
     public KeyCode L;
     public KeyCode R;
 
-    public int damage;
+    public int damage; // Base damage for attacks
+    public float attackRange = 1.5f; // Range of attack
+    public float attackCooldown = 0.5f; // Time between attacks
+    public Transform attackPoint; // Position where the attack originates
+
     public KeyCode attack1Key;
     public KeyCode attack2Key;
     public KeyCode attack3Key;
     public KeyCode defendKey;
     public bool isAttacking;
+
+    private float attackCooldownTimer;
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -95,6 +101,7 @@ public class PlayerController : MonoBehaviour
 
 
         // Attack Animations
+        /*
         if (Input.GetKeyDown(attack1Key))
         {
             anim.SetTrigger("Attack1");
@@ -109,6 +116,14 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetTrigger("Attack3");
             isAttacking = true;
+        }
+        */
+
+        HandleAttacks();
+
+        if (attackCooldownTimer > 0)
+        {
+            attackCooldownTimer -= Time.deltaTime;
         }
 
         // Defend Animation
@@ -169,26 +184,6 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Hit");
     }
 
-	/*void OnCollisionEnter2D(Collision2D collision)
-    {
-        // Check if the object is tagged as "Sticky"
-        if (collision.gameObject.CompareTag("Sticky"))
-        {
-            Debug.Log("Touched a sticky object!");
-            playerCollider.sharedMaterial = stickyMaterial; // Apply sticky material
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        // Revert back to default material when leaving the sticky object
-        if (collision.gameObject.CompareTag("Sticky"))
-        {
-            Debug.Log("Left the sticky object.");
-            playerCollider.sharedMaterial = defaultMaterial;
-        }
-    }*/
-
     public void ActivateSpeedBoost(float duration)
     {
         moveSpeed *= 2; // Double the speed
@@ -238,4 +233,73 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Enemy hit!");
         }
     }
+
+    void HandleAttacks()
+    {
+        if (isAttacking || attackCooldownTimer > 0)
+        {
+            return; // Prevent attacking while in cooldown or during an ongoing attack
+        }
+
+        if (Input.GetKeyDown(attack1Key))
+        {
+            PerformAttack("Attack1", damage);
+        }
+        else if (Input.GetKeyDown(attack2Key))
+        {
+            PerformAttack("Attack2", damage * 2); // Stronger attack
+        }
+        else if (Input.GetKeyDown(attack3Key))
+        {
+            PerformAttack("Attack3", damage * 3); // Special attack
+        }
+    }
+
+    void PerformAttack(string animationTrigger, int attackDamage)
+{
+    if (anim == null || attackPoint == null)
+    {
+        Debug.LogError("Animator or AttackPoint is not assigned.");
+        return;
+    }
+
+    isAttacking = true;
+    anim.SetTrigger(animationTrigger);
+    Debug.Log("Attack triggered with animation: " + animationTrigger);
+
+    // Detect enemies in the attack range
+    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
+    Debug.Log("Number of enemies hit: " + hitEnemies.Length);
+
+    foreach (Collider2D enemy in hitEnemies)
+    {
+        if (enemy.CompareTag("Enemy"))
+        {
+            EnemyController enemyController = enemy.GetComponent<EnemyController>();
+            if (enemyController != null)
+            {
+                Debug.Log("Enemy hit: " + enemy.name);
+                enemyController.TakeDamage(attackDamage);
+            }
+            else
+            {
+                Debug.LogError("EnemyController component missing on: " + enemy.name);
+            }
+        }
+    }
+
+    // Start attack cooldown
+    attackCooldownTimer = attackCooldown;
+
+    // Reset attack state after animation ends
+    StartCoroutine(ResetAttackState(anim.GetCurrentAnimatorStateInfo(0).length));
+}
+
+IEnumerator ResetAttackState(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    isAttacking = false;
+    Debug.Log("Attack state reset after delay: " + delay);
+}
+
 }

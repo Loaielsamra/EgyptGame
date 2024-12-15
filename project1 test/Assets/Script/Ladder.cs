@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ladder : MonoBehaviour
 {
-    private bool isClimbing; // To check if the player is climbing
+    //private bool isClimbing; // To check if the player is climbing
     private GameObject player; // Reference to the player
 
     public float climbSpeed = 5f; // Speed at which the player climbs the ladder
@@ -25,7 +25,7 @@ public class Ladder : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             player.GetComponent<Rigidbody2D>().gravityScale = 1; // Reset gravity
-            isClimbing = false; // Stop climbing
+            //isClimbing = false; // Stop climbing
             player = null;
         }
     }
@@ -37,12 +37,12 @@ public class Ladder : MonoBehaviour
             float verticalInput = Input.GetAxis("Vertical"); // Use "W/S" or "Up/Down" keys for climbing
             if (verticalInput != 0)
             {
-                isClimbing = true;
+                //isClimbing = true;
                 player.transform.Translate(Vector2.up * verticalInput * climbSpeed * Time.deltaTime);
             }
             else
             {
-                isClimbing = false;
+                //isClimbing = false;
             }
         }
     }
