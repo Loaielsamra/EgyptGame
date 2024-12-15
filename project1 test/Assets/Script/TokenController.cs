@@ -24,10 +24,10 @@ public class TokenController : MonoBehaviour
         eagleController = eagle.GetComponent<EagleController>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the colliding object is the player
-        if (collision.CompareTag("Player"))
+        if (collision.tag == "Player")
         {
             PlayerController playerController = collision.GetComponent<PlayerController>();
 
@@ -38,22 +38,27 @@ public class TokenController : MonoBehaviour
                 {
                     // Call the ActivateEagle method and pass the duration
                     eagleController.ActivateEagle(tokenEffectDuration); // Activate the eagle with the token effect duration
+                    Debug.Log("Collected eagle token.");
                 }
                 else if (CompareTag("SpeedToken"))
                 {
                     playerController.ActivateSpeedBoost(speedBoostDuration);
+                    Debug.Log("Collected speed token.");
                 }
                 else if (CompareTag("UpwardArrowToken"))
                 {
                     playerController.EnableDoubleJump(doubleJumpDuration);
+                    Debug.Log("Collected x2 Jump token.");
                 }
                 else if (CompareTag("KeyOfLifeToken"))
                 {
                     BoostHealth(playerStats);
+                    Debug.Log("Collected Key of Life token.");
                 }
                 else if (CompareTag("EyeOfHorusToken"))
                 {
                     playerController.ActivateInvisibility(invisibilityDuration);
+                    Debug.Log("Collected Eye of Horus token.");
                 }
 
                 // Destroy the token after applying its effect

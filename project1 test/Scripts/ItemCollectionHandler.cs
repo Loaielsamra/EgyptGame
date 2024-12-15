@@ -109,4 +109,4 @@ public class ItemCollectionHandler : MonoBehaviour
             Destroy(other.gameObject); // Destroy the item after collection
         }
     }
-}}
+}

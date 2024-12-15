@@ -11,8 +11,10 @@ public class PlayerStats : MonoBehaviour
     public float flickerDuration = 0.1f;
     private SpriteRenderer spriteRenderer;
     public bool isImmune = false;
+    public bool isImmuneGranted = false;
     private float immunityTime = 0f;
     public float immunityDuration = 1.5f;
+    public float grantedImmunityDuration = 3.5f;
     public int coinsCollected = 0;
 
     public Image healthBar;
@@ -33,6 +35,16 @@ public class PlayerStats : MonoBehaviour
             SpriteFlicker();
             immunityTime = immunityTime + Time.deltaTime;
             if (immunityTime >= immunityDuration)
+            {
+                this.isImmune = false;
+                this.spriteRenderer.enabled = true;
+            }
+        }
+
+        if (this.isImmuneGranted == true)
+        {
+            immunityTime = immunityTime + Time.deltaTime;
+            if (immunityTime >= grantedImmunityDuration)
             {
                 this.isImmune = false;
                 this.spriteRenderer.enabled = true;
@@ -83,6 +95,12 @@ public class PlayerStats : MonoBehaviour
     public void PlayHitReaction()
     {
         this.isImmune = true;
+        this.immunityTime = 0f;
+    }
+
+    public void GrantImmunity()
+    {
+        this.isImmuneGranted = true;
         this.immunityTime = 0f;
     }
 
