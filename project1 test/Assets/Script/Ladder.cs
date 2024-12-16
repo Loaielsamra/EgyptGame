@@ -4,46 +4,49 @@ using UnityEngine;
 
 public class Ladder : MonoBehaviour
 {
-    //private bool isClimbing; // To check if the player is climbing
-    private GameObject player; // Reference to the player
+    public float climbSpeed = 4f;
+    private bool isClimbing = false;
+    private GameObject player;
+    private Rigidbody2D playerRb;
+    private Animator playerAnim;
+    private float originalGravityScale;
 
-    public float climbSpeed = 5f; // Speed at which the player climbs the ladder
-
-    void OnTriggerEnter2D(Collider2D collision)
+    void Start()
     {
-        // Check if the player enters the ladder's trigger zone
-        if (collision.CompareTag("Player"))
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
         {
-            player = collision.gameObject;
-            player.GetComponent<Rigidbody2D>().gravityScale = 0; // Disable gravity while on the ladder
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        // Check if the player exits the ladder's trigger zone
-        if (collision.CompareTag("Player"))
-        {
-            player.GetComponent<Rigidbody2D>().gravityScale = 1; // Reset gravity
-            //isClimbing = false; // Stop climbing
-            player = null;
+            playerRb = player.GetComponent<Rigidbody2D>();
+            playerAnim = player.GetComponent<Animator>();
+            originalGravityScale = playerRb.gravityScale;
         }
     }
 
     void Update()
     {
-        if (player != null)
+        if (isClimbing && player != null)
         {
-            float verticalInput = Input.GetAxis("Vertical"); // Use "W/S" or "Up/Down" keys for climbing
-            if (verticalInput != 0)
-            {
-                //isClimbing = true;
-                player.transform.Translate(Vector2.up * verticalInput * climbSpeed * Time.deltaTime);
-            }
-            else
-            {
-                //isClimbing = false;
-            }
+            float vertical = Input.GetAxis("Vertical");
+            // Climbing movement
+            playerRb.velocity = new Vector2(playerRb.velocity.x, vertical * climbSpeed);
+            //playerRb.gravityScale = 0.5f; // Disable gravity while climbing
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject == player)
+        {
+            isClimbing = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject == player)
+        {
+            isClimbing = false;
+            playerRb.gravityScale = originalGravityScale; // Restore gravity when not climbing
         }
     }
 }

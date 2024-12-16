@@ -51,7 +51,7 @@ public class PlayerStats : MonoBehaviour
             }
         }
 
-        healthBar.fillAmount = this.health/6f;
+        healthBar.fillAmount = this.health/8f;
     }
     void SpriteFlicker()
     {

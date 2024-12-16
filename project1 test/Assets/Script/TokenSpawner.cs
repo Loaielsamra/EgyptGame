@@ -6,7 +6,7 @@ public class TokenSpawner : MonoBehaviour
     
     public GameObject tokenPrefab;
     public Transform spawnPoint;
-    public KeyCode interactKey = KeyCode.E;
+    public KeyCode interactKey;
     private Animator anim;
     private bool done = false;
 
@@ -17,14 +17,26 @@ public class TokenSpawner : MonoBehaviour
 
     void Update()
     {
+        /*
         if (Input.GetKeyDown(interactKey))
         {
-            
             done = true;
             StartCoroutine(WaitAndSpawnToken());
         }
-
+        */
         anim.SetBool("Done", done);
+    }
+    
+
+    public void OnTriggerEnter2D(Collider2D collided)
+    {
+        Debug.Log("Chest collided");
+        if (collided.tag == "Player")
+        {
+            done = true;
+            StartCoroutine(WaitAndSpawnToken());
+            Debug.Log("Chest opened");
+        }
     }
 
     IEnumerator WaitAndSpawnToken()

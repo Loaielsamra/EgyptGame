@@ -1477,12 +1477,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68101e463c085c45a355a17c111aaa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 360908975}
+  target: {fileID: 0}
   CameraSpeed: 3
   minY: -0.95
   maxY: 1.7
-  minX: 37.3
-  maxX: 57.9
+  minX: 38.3
+  maxX: 57
 --- !u!81 &1325829357
 AudioListener:
   m_ObjectHideFlags: 0

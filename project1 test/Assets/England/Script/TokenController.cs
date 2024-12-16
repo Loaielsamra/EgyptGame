@@ -45,7 +45,7 @@ public class TokenController : MonoBehaviour
                     playerController.ActivateSpeedBoost(speedBoostDuration);
                     Debug.Log("Collected speed token.");
                 }
-                else if (CompareTag("UpwardArrowToken"))
+                else if (CompareTag("UpwordArrowToken"))
                 {
                     playerController.EnableDoubleJump(doubleJumpDuration);
                     Debug.Log("Collected x2 Jump token.");
