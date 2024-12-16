@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/newyork/Scene 6/NY_Scene6.unity
     guid: 419c7815a6cb8ed43b580b24a0606a33
+  - enabled: 1
+    path: Assets/France/Scene 1/scene/scene 1.unity
+    guid: 3a48a2909f54c9444a6a5e8213833e05
+  - enabled: 1
+    path: Assets/France/Scene 2/scene 2.unity
+    guid: c4f624c2eb26c8148959a7eca604bf1c
+  - enabled: 1
+    path: Assets/France/Scene 3/scene 3.unity
+    guid: 9b0741f19995f4546ba508acd82cb86a
   m_configObjects: {}
