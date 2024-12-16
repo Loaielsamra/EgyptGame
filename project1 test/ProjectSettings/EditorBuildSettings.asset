@@ -30,6 +30,12 @@ EditorBuildSettings:
     path: Assets/newyork/Scene 6/NY_Scene6.unity
     guid: 419c7815a6cb8ed43b580b24a0606a33
   - enabled: 1
+    path: Assets/berlin/City/Scenes/Berlin City.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/berlin/Museum/Scenes/Berlin Museum.unity
+    guid: 4ba56215e5dcf054194a64cc4f2f6b83
+  - enabled: 1
     path: Assets/France/Scene 1/scene/scene 1.unity
     guid: 3a48a2909f54c9444a6a5e8213833e05
   - enabled: 1
@@ -38,4 +44,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/France/Scene 3/scene 3.unity
     guid: 9b0741f19995f4546ba508acd82cb86a
+  - enabled: 1
+    path: Assets/England/Scenes/Scene 1.unity
+    guid: 96a141ec546e12946bb7ff8da4cb3081
+  - enabled: 1
+    path: Assets/England/Scenes/Scene 2.unity
+    guid: 95df6c6636e838643ba99dc61445599c
+  - enabled: 1
+    path: Assets/Victory/VictoryScene.unity
+    guid: 1b68d4c3a7a1cad4b8ce9dcf97f177de
+  - enabled: 1
+    path: Assets/GameOver/GameOver.unity
+    guid: ac49759a1aabf4c4f917ed40ce8f5453
   m_configObjects: {}

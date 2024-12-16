@@ -83,6 +83,7 @@ public class PlayerStats : MonoBehaviour
             else if (this.lives == 0 && this.health == 0)
             {
                 Debug.Log("GameOver");
+                (new NavigationController()).GoToGameOverScene();
                 
                 Destroy(this.gameObject);
             }

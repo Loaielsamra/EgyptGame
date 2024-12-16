@@ -2470,11 +2470,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 314.04
+      value: 317.58
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.18
+      value: -22.33
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2519,6 +2519,10 @@ PrefabInstance:
     - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_Name
       value: royal sprite with gun_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -16367,6 +16371,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 450
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &678314872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678314873}
+  m_Layer: 0
+  m_Name: attackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &678314873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678314872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 536362282}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &692765273
 GameObject:
   m_ObjectHideFlags: 0
@@ -17354,6 +17389,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
+    - target: {fileID: 7518693434483884470, guid: 14c53cf1a8efab040a24e15bf0ecec30, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518693434483884470, guid: 14c53cf1a8efab040a24e15bf0ecec30, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518693434483884470, guid: 14c53cf1a8efab040a24e15bf0ecec30, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518693434483884471, guid: 14c53cf1a8efab040a24e15bf0ecec30, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d2f675eae2a6e7c4f8ea10c89dcc0e8a, type: 3}
     - target: {fileID: 7518693434929972450, guid: 14c53cf1a8efab040a24e15bf0ecec30, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -30490,7 +30541,7 @@ PrefabInstance:
       objectReference: {fileID: 4316458811239118617, guid: 33058c87aea52ad498d49e171d61f61a, type: 3}
     - target: {fileID: 3065322686844321832, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: stoneLifetime
-      value: 15
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3065322686844321832, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: respawnInterval
@@ -30510,11 +30561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 247.83
+      value: 249.53
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.18
+      value: -34.02
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30559,6 +30610,10 @@ PrefabInstance:
     - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_Name
       value: royal sprite with gun_1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -37164,11 +37219,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 316.53
+      value: 320.54
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.18
+      value: -19.97
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37213,6 +37268,10 @@ PrefabInstance:
     - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_Name
       value: royal sprite with gun_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -48817,8 +48876,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3561604203659296545, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561604203659296545, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
       propertyPath: attack1Key
-      value: 122
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561604203659296545, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 678314873}
+    - target: {fileID: 3561604203659296546, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
+      propertyPath: health
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3561604203659296546, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
       propertyPath: healthBar
@@ -48846,11 +48917,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6537915578102920589, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 224.62
+      value: -65.9
       objectReference: {fileID: 0}
     - target: {fileID: 6537915578102920589, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.22
+      value: 6.2
       objectReference: {fileID: 0}
     - target: {fileID: 6537915578102920589, guid: 17da7fdc455f00846a21f3d4f1d45c36, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50119,11 +50190,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 159.41
+      value: 158.96
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.18
+      value: -17.34
       objectReference: {fileID: 0}
     - target: {fileID: 4316458811239118614, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50160,6 +50231,10 @@ PrefabInstance:
     - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
       propertyPath: m_Name
       value: royal sprite with gun_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4316458811239118617, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b9a52c15541614ab5c6a9129975ae1, type: 3}
@@ -50239,6 +50314,19 @@ PrefabInstance:
       propertyPath: dialogueCanvas
       value: 
       objectReference: {fileID: 296985513}
+    - target: {fileID: 7653492891486926593, guid: 9cde7804a479c5e4f9a8a2db0c22f5bd, type: 3}
+      propertyPath: dialogueWords.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7653492891486926593, guid: 9cde7804a479c5e4f9a8a2db0c22f5bd, type: 3}
+      propertyPath: dialogueWords.Array.data[0]
+      value: "You\u2019ve made it to England, Ramsees!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7653492891486926593, guid: 9cde7804a479c5e4f9a8a2db0c22f5bd, type: 3}
+      propertyPath: dialogueWords.Array.data[1]
+      value: "The Rosetta Stone is your next goal\u2014an artifact of unimaginable
+        power that helped unlock the mysteries of ancient Egypt."
+      objectReference: {fileID: 0}
     - target: {fileID: 7653492891486926596, guid: 9cde7804a479c5e4f9a8a2db0c22f5bd, type: 3}
       propertyPath: m_RootOrder
       value: 109
